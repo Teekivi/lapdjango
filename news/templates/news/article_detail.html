@@ -1,0 +1,9 @@
+{% extends "news/base.html" %}
+
+{% block title %}{{ article.title }}{% endblock %}
+
+{% block content %}
+  <h2>{{ article.title }}</h2>
+  <p>{{ article.content }}</p>
+  <small>by <strong>{{ article.author }}</strong> on <strong>{{ article.created_at }}</strong></small>
+{% endblock %}

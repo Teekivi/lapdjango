@@ -1,0 +1,14 @@
+{% extends "news/base.html" %}
+
+{% block title %}{{ page_title }}{% endblock title %}
+
+{% block content %}
+  <h2>{{ page_title }}</h2>
+
+  {% for article in articles %}
+    <h3><a href="{% url 'article_detail' pk=article.pk %}">{{ article.title }}</a></h3>
+    <p>{{ article.content }}</p>
+    <small>by <strong>{{ article.author }}</strong> on <strong>{{ article.created_at }}</strong></small>
+    <br/><br/>
+  {% endfor %}
+{% endblock %}
