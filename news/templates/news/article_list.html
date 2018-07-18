@@ -10,5 +10,7 @@
     <p>{{ article.content }}</p>
     <small>by <strong>{{ article.author }}</strong> on <strong>{{ article.created_at }}</strong></small>
     <br/><br/>
+  {% empty %}
+    <p><em>No articles found...</em></p>
   {% endfor %}
 {% endblock %}

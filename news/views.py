@@ -13,6 +13,6 @@ def index(request):
     })
 
 
-def article_detail(request, **kwargs):
-    article = Article.objects.get(pk=kwargs["pk"])
+def article_detail(request, pk):
+    article = Article.objects.get(pk=pk)
     return render(request, "news/article_detail.html", {"article": article})
