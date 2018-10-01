@@ -4,6 +4,7 @@ A basic news site project intended as a quick introduction to Django.
 
 ## Links
 
+* [Introduction to Django (in English)](https://docs.google.com/presentation/d/1JcJVHb6PUASLPWOStsPfbilPOXrkSg-VRKqJbVwkjgc/edit?usp=sharing)
 * [Introduction to Django (in Estonian)](https://docs.google.com/presentation/d/1rK1J2V_wk7GlBRs2fMXmEc-Zfuby_jPrlnA4q7-MMWM/edit?usp=sharing)
 * [Tasks](https://docs.google.com/document/d/10XtiKnR107ajXBDEUUUz5LF1_WkwDlxRNaqRgH3EHiA/edit?usp=sharing)
 
